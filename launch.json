@@ -1,0 +1,17 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "ProofOfWorkToken",
+    "name": "Proof Of Work",
+    "symbol": "WORK",
+    "decimals": 18
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Token-only Sepolia launch. ProofOfWorkToken has a nonpayable constructor with no arguments. The configured ProjectFactory supplies the protocol LP and MerkleDistributor. The native ETH pool has no hook and is seeded with launch tokens only, without ETH funding. initialPrice is the legacy decimal sqrtPriceX96 retained for provenance; the pinned policy v5 determines the effective opening price from the approved 20 ETH fully diluted valuation. Policy, frozen allocations, privileged addresses and signed artifact linkage are supplied by services; these notes do not grant deployment authority."
+}
