@@ -1,0 +1,10 @@
+{
+  "ProofOfWorkToken": {
+    "canonicalKeccak256": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+    "fileSha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+  },
+  "MerkleDistributor": {
+    "canonicalKeccak256": "706b029ebc8f6212022d2591216914eccc03ebc6afda53a016c1a58bf10528d7",
+    "fileSha256": "8f63e1211e13257aa318c81180028c2c621284d75d3bd66f071b06663f9e3454"
+  }
+}
